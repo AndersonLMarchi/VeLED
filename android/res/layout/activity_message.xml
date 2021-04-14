@@ -1,0 +1,51 @@
+
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MessageActivity" >
+
+    <EditText
+        android:id="@+id/edit_frase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_edit_frase"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="text"
+        android:maxLength="16" >
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/button_manda"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/edit_frase"
+        android:layout_alignRight="@+id/edit_frase"
+        android:layout_below="@+id/edit_frase"
+        android:text="@string/botao_manda" />
+
+    <TextView
+        android:id="@+id/view_edit_frase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/txt_view_frase" />
+
+    <Button
+        android:id="@+id/otherSensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_manda"
+        android:layout_alignRight="@+id/button_manda"
+        android:layout_below="@+id/button_manda"
+        android:layout_marginTop="17dp"
+        android:text="@string/other_sensor" />
+
+</RelativeLayout>

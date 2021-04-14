@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VeLED</string>
+    <string name="settings">Configurações</string>
+    <string name="txt_view_frase">Digite uma Frase:</string>
+    <string name="botao_manda">Enviar para LED</string>
+    <string name="btTemp">Temperatura</string>
+    <string name="btUmid">Umidade</string>
+    <string name="txt_view_outros">Outros sensores</string>
+    <string name="txt_celcius">º Cel  </string>
+    <string name="txt_fahrenheit">º Fah</string>
+    <string name="txt_kelvin">º Kel  </string>
+    <string name="other_sensor">Sensor DHT11</string>
+    <string name="voltar">Voltar</string>
+    <string name="read_ip">Conectar</string>
+    <string name="introIP">Digite o IP do servidor:</string>
+
+</resources>

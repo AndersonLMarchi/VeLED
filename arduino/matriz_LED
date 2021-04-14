@@ -1,0 +1,36 @@
+-----------------------------------------------------------------------------------------------------------------------
+
+					    Ordem dos LED's
+
+		| pino 13 acende na 1ª linha |  	| pino 08 acende na 1ª coluna |
+		| pino 10 acende na 2ª linha | 		| pino 07 acende na 2ª coluna |
+		| pino 15 acende na 3ª linha |		| pino 03 acende na 3ª coluna |
+		| pino 09 acende na 4ª linha |		| pino 14 acende na 4ª coluna |
+		| pino 04 acende na 5ª linha |		| pino 02 acende na 5ª coluna |
+		| pino 16 acende na 6ª linha |		| pino 12 acende na 6ª coluna |
+		| pino 06 acende na 7ª linha |		| pino 11 acende na 7ª coluna |
+		| pino 01 acende na 8ª linha |		| pino 05 acende na 8ª coluna |
+
+-----------------------------------------------------------------------------------------------------------------------
+
+						| LED L,C | AND - CAT |
+
+| LED 1,1 | A13 - C08 |		| LED 3,1 | A15 - C08 |		| LED 5,1 | A04 - C08 |		| LED 7,1 | A06 - C08 |
+| LED 1,2 | A13 - C07 |		| LED 3,2 | A15 - C07 |		| LED 5,2 | A04 - C07 |		| LED 7,2 | A06 - C07 |
+| LED 1,3 | A13 - C03 |		| LED 3,3 | A15 - C03 |		| LED 5,3 | A04 - C03 |		| LED 7,3 | A06 - C03 |
+| LED 1,4 | A13 - C14 |		| LED 3,4 | A15 - C14 |		| LED 5,4 | A04 - C14 |		| LED 7,4 | A06 - C14 |
+| LED 1,5 | A13 - C02 |		| LED 3,5 | A15 - C02 |		| LED 5,5 | A04 - C02 |		| LED 7,5 | A06 - C02 |
+| LED 1,6 | A13 - C12 |		| LED 3,6 | A15 - C12 |		| LED 5,6 | A04 - C12 |		| LED 7,6 | A06 - C12 |
+| LED 1,7 | A13 - C11 |		| LED 3,7 | A15 - C11 |		| LED 5,7 | A04 - C11 |		| LED 7,7 | A06 - C11 |
+| LED 1,8 | A13 - C05 |		| LED 3,8 | A15 - C05 |		| LED 5,8 | A04 - C05 |		| LED 7,8 | A06 - C05 |
+
+| LED 2,1 | A10 - C08 |		| LED 4,1 | A09 - C08 |		| LED 6,1 | A16 - C08 |		| LED 8,1 | A01 - C08 |
+| LED 2,2 | A10 - C07 |		| LED 4,2 | A09 - C07 |		| LED 6,2 | A16 - C07 |		| LED 8,2 | A01 - C07 |
+| LED 2,3 | A10 - C03 |		| LED 4,3 | A09 - C03 |		| LED 6,3 | A16 - C03 |		| LED 8,3 | A01 - C03 |
+| LED 2,4 | A10 - C14 |		| LED 4,4 | A09 - C14 |		| LED 6,4 | A16 - C14 |		| LED 8,4 | A01 - C14 |
+| LED 2,5 | A10 - C02 |		| LED 4,5 | A09 - C02 |		| LED 6,5 | A16 - C02 |		| LED 8,5 | A01 - C02 |
+| LED 2,6 | A10 - C12 |		| LED 4,6 | A09 - C12 |		| LED 6,6 | A16 - C12 |		| LED 8,6 | A01 - C12 |
+| LED 2,7 | A10 - C11 |		| LED 4,7 | A09 - C11 |		| LED 6,7 | A16 - C11 |		| LED 8,7 | A01 - C11 |
+| LED 2,8 | A10 - C05 |		| LED 4,8 | A09 - C05 |		| LED 6,8 | A16 - C05 |		| LED 8,8 | A01 - C05 |
+
+-----------------------------------------------------------------------------------------------------------------------
